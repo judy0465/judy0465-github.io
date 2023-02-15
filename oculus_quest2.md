@@ -29,5 +29,5 @@ footer: 2023-02-13
        영상 참고: https://www.youtube.com/watch?v=YxFbAVVaw78 
 * Oculus Quest 2 사용법
 ---
-# errors
-![height:4in](errors_1.jpg) 왜 사진 업로드 안됨? ㅜㅜ
+# image
+![h:32](./errors_1.jpg) 
