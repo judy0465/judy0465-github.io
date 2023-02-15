@@ -8,8 +8,9 @@ footer: 2023-02-13
 ---
 <!--_color: pink-->
 <!--_backgroundColor: -->
-## Kaywon art University student study
-# <!--fit--> MEMO
+# KaywonArtUniversity student study
+#### 22261041 박민영
+
 
 ---
 
@@ -33,7 +34,7 @@ footer: 2023-02-13
 (Google docs 사용)
 
 ---
-<!--_color: pink-->
+
 ### 문서 공통 목록 <br><br>
 
 - 폰트 사이즈: 10pt
@@ -44,7 +45,7 @@ footer: 2023-02-13
 
 ---
 
-<!--_color: pink-->
+
 ### VR project 2 연구일지 역할분담 <br><br>
 
 
@@ -59,7 +60,7 @@ footer: 2023-02-13
 민영: 10-15번 (9/23,9/26일)
 
 ---
-<!--_color: pink-->
+
 
 ## 연구 일지 개선 사항 2023 ver. <br><br>
 
@@ -101,11 +102,13 @@ mark down  언어에서 'marp'(서비스 이름. 브랜드)라는 것이 있다.
 변수란?: 닉네임을 지정해준다고 생각하기.
 참조란?: 닉네임 
 - 변수가 왜 필요한가?
+: 같은 기능상에서 다른 역할을 수행할 수 있다.
 
 
 ---
 
-- Microsoft teams < Marp
- Microsoft teams에 문서화 지양.(그 날의 한 것들 작성이라던가)
+- Microsoft teams <<< Marp
+ Microsoft teams에 문서화 지양.(그 날의 한 것들 작성 등.)
 why? 이것들을 문서화 하려면 하나하나 캡쳐해서 사용해야 함.
-marp에 문서화하여 업로드 시켜놓기 
+marp에 문서화하여 업로드 시켜놓기 -->html 상에 업로드 하여 github 상에서 공유하여 볼 수 있도록 한다.
+
