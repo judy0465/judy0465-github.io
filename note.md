@@ -6,8 +6,8 @@ paginate: true
 header: Student Study Memo
 footer: 2023-02-13
 ---
-<!--_color: red-->
-<!--_backgroundColor: black-->
+<!--_color: pink-->
+<!--_backgroundColor: -->
 ## Kaywon art University student study
 # <!--fit--> MEMO
 
@@ -29,9 +29,11 @@ footer: 2023-02-13
 -양이 많을 경우: 제목만 
 -양이 적을 경우: 제목+ 설명
 
-- 2차-작성자: '김나연' 학생으로 통일 (한명만 작성)
----
+- 2차-작성자: '김나연' 학생으로 통일 (한명만 작성)/ 공유문서에 작성
+(Google docs 사용)
 
+---
+<!--_color: pink-->
 ### 문서 공통 목록 <br><br>
 
 - 폰트 사이즈: 10pt
@@ -42,7 +44,8 @@ footer: 2023-02-13
 
 ---
 
-### <!--_color: pink-->VR project 2 연구일지 역할분담 <br><br>
+<!--_color: pink-->
+### VR project 2 연구일지 역할분담 <br><br>
 
 
 - 경로: Microsoftteams-[VR project2]-[일반]-'WIKI 프로그래밍' 선택
@@ -56,27 +59,29 @@ footer: 2023-02-13
 민영: 10-15번 (9/23,9/26일)
 
 ---
+<!--_color: pink-->
 
- 
-연구 일지 개선 사항
+## 연구 일지 개선 사항 2023 ver. <br><br>
 
-연구 내용 안에 날짜 매일 갱신해서 작성하기
+- 연구 내용 안에 날짜 매일 갱신해서 작성하기
 '-'기호 사용해서 계속 추가하기
-'안건' 에는 그 날 한 것 제목하는 식으로 
+'안건' 에는 그 날 한 것 제목하는 식으로 <br><br>
 
-양이 길어져도 상관 없음.
 
--통장사본 신분증 준비
+ - 내용 양이 길어져도 상관 없음.
+ -통장사본 신분증 준비
+
 ---
-20203.37f1 버전 설치 
-install editor 에서
-archive 클릭 - longterm support 창이 하나 뜸.
-20203 검색
+
+### Unity 20203.37f1 버전 설치 
+
+[install editor]-[archive] 창 클릭 - longterm support 창이 하나 뜸.
+'20203' 검색
 해당 버전 Windows로 다운
 
 -웬만한 것은 WIKI 프로그래밍 에 적혀 있으니 중복 되지 않도록 작성 부탁하심.
 
-파일이 설치될 위치 알고 있어야 함.???
+파일이 설치될 위치 알고 있어야 함. 다른 드라이브에 파일 올려놓기 
 
 gunug.github.io 에 교육자료 모아져 있음.
 
@@ -84,7 +89,6 @@ gunug.github.io 에 교육자료 모아져 있음.
 mark up 언어에 html 도 포함되어 있다.(잘 정리되어 있다.)
 mark down  언어에서 'marp'(서비스 이름. 브랜드)라는 것이 있다.
 
-marp 함께 공부해 나가기 
 
 ---
 
@@ -94,5 +98,14 @@ marp 함께 공부해 나가기
 일반 변수
 참조형 변수
 
+변수란?: 닉네임을 지정해준다고 생각하기.
+참조란?: 닉네임 
+- 변수가 왜 필요한가?
+
 
 ---
+
+- Microsoft teams < Marp
+ Microsoft teams에 문서화 지양.(그 날의 한 것들 작성이라던가)
+why? 이것들을 문서화 하려면 하나하나 캡쳐해서 사용해야 함.
+marp에 문서화하여 업로드 시켜놓기 

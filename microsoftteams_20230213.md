@@ -13,4 +13,5 @@ footer: 2023-02-13
 
 ---
 
-# ㄹㅇㄹ
+# OculusQuest2 외관 설명
+[h:50%](./image/image.pngs)
