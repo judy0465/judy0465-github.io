@@ -78,6 +78,16 @@ X_Space_Test | ![h:150](./project_vr/scene_x_space_test.jpg) | 공간 테스트.
 project window | assets > script > sceneChanger.cs
 
 
+---
+
+# Unity errors 모음
+
+---
+
+- ##### CS파일 오픈 오류- visualstudiocode상에서 열리는 경우
+###### 맨 위의 메뉴 [Edit] - preferences - External tools/ visalstudio 선택
+![h:500](./unity_/external_tools.jpg)
+
 
 ---
 ### Marp의 기능이 궁금하다면?
