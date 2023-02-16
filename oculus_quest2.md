@@ -13,8 +13,6 @@ footer: 2023-02-13
 
 ---
 
-### 목차
-
 ### 1.  프로그램 다운로드
  -1.1 유니티 설치
  -1.2 Oculus Quest 2 Oculus link
@@ -30,9 +28,13 @@ footer: 2023-02-13
 
 ### 3  OculusQuest 2 사용법/작동법
 
-- 2.2 빌드 세팅
-   - 2.3 VR 카메라 추가
-   - 2.4 VR 핸드 추가
+ - 3.1 오큘러스 외관 설명
+      -1) 헤드셋 설명
+      -2) 컨트롤러 설명
+<br>
+ - 3.2 제품 사용법
+     -1) 헤드셋 설명
+     -2) 컨트롤러 설명
 
 ---
 
@@ -75,52 +77,90 @@ https://www.oculus.com/download_app/?id=1582076955407037
 
 ---
 
-# 3  OculusQuest 2 사용법/작동법
+# 3.  OculusQuest 2 사용법
 
-   - 2.2 빌드 세팅
-   - 2.3 VR 카메라 추가
-   - 2.4 VR 핸드 추가
+ - 3.1 오큘러스 외관 설명
+      -1 전체 외관 설명
+      -2 헤드셋 설명
+      -3 컨트롤러 설명
+
+ - 3.2 제품 사용법
+     -1 헤드셋 설명
+     -2 컨트롤러 설명
+
+---
+
+#### 3.1 전체 구성요소
+
+![w:600](./oculusquest2/all.png)
+
+###### +이외에 컴퓨터와 헤드셋을 이어주는 USB-C타입이 있다.
+
+---
+
+### 3.2 오큘러스 외관 설명
+
+###### - 구성: 헤드셋과 컨트롤러 2개로 이루어져 있음.
+
+![w:500](./oculusquest2/oculus.jpg)
+
+###### - 4시간 완충 후 2시간 사용가능.
+
+---
+
+#### (1) 헤드셋
+
+- 전원/볼륨 조절 버튼 
+
+![w:600](./oculusquest2/power_volumn_button.jpg)
+
+###### - 전원버튼: 제품 우측의 버튼을 꾹 2-3초간 눌러서 켠다. (하얀 빛이 나온다.)
+###### - 음량조절 버튼: 하단에 볼륨을 조절할 수 있는 버튼이 있다.
+
+
+---
+
+- 헤드셋 쓰는 방법(헤일로 스트랩)
+
+   - 위로 들어서 쓰고 벗는 방식 <br>
+
+![w:700](./oculusquest2/onhead.png)
+
+---
+
+-  헤드셋 충전/ PC연결 
+
+![w:700](./oculusquest2/charge_connect.jpg)
+
+: 왼쪽의 USB-c 타입 단자에 연결한다.
+
+
+
+
+---
+
+![bg right height:500](./oculusquest2/left.png)
+![bg right height:500](./oculusquest2/right.png)
+
+- 컨트롤러: 
+
+컨트롤러를 사용하여 가상의 물건들을 집거나 던질 수 있습니다.
+
+
 
 
 
 ---
 
 
+ - 페어링 코드찾기: 
 
-
-
-
-
-
----
-
- -페어링 코드찾기: 맨 밑 바의 우측에 주사위 모양 아이콘 클릭- settings 칸 클릭- 맨 밑 'About' 클릭- 맨 밑에 Pairing code 있음.
-       영상 참고: https://www.youtube.com/watch?v=YxFbAVVaw78 
+홈의 UI 패널 안에서 우측에 주사위 모양 아이콘 클릭
+settings 칸 클릭- 맨 밑 'About' 클릭- 맨 밑에 Pairing code 있음.
+영상 참고: https://www.youtube.com/watch?v=YxFbAVVaw78 
 
 ---
 
 Index Scene으로 먼저 들어가야 
 다른 index들을(다른 Scene들) 볼 수 있다.
-
-
-
-
-
-
-
-
-
-
----
-# Errors
-<!--_color: yellow-->
-#### Case 1)
-
-![h:100](./image/errors_1.jpg) 
--해결방법: Project-Oculus-VR-Plugins 에서 1.74.0만 남겨두고 나머지 삭제.
-
-##### 해결 후 화면: 
-![h:200](./image/errors_1_solution.jpg) : plugin 안에 2개의 파일만 존재한다.
-
----
 
