@@ -1,28 +1,30 @@
 ---
 marp: true
-theme: cover
+theme: your-theme
 class: invert
 paginate: true
 header: Student Study Memo
-footer: 2023-02-13
+footer: 2023-02-15
+backgroundColor: rgba:#652410
 ---
-<!--_color: pink-->
-<!--_backgroundColor: -->
-## Kaywon art University student study
-#  Oculus Quest 2 
+<!--_color: white-->
+![saturate:2.0 bg opacity:.09](./oculusquest2/oculus.jpg)
+
+#  <!--fit--> Oculus Quest 2 
+## <span style="color: grey">Kaywon art University student study</span>
 
 ---
 
-### 1.  프로그램 다운로드
- -1.1 유니티 설치
- -1.2 Oculus Quest 2 Oculus link
- -1.3 Plastic CSM 다운로드(메일)
+### 1. 프로그램 다운로드
+ - 1. 유니티 설치
+ - 2. Oculus Quest 2 Oculus link
+ - 3. Plastic CSM 다운로드(메일)
 
-### 2.  유니티: VR 프로젝트 생성
-       -2.1 Oculus integrations 설치
-       -2.2 빌드 세팅
-       -2.3 VR 카메라 추가
-       -2.4 VR 핸드 추가
+ - 2   유니티: VR 프로젝트 생성
+- 1. Oculus integrations 설치
+- 2. 빌드 세팅
+- 3. VR 카메라 추가
+ - 4. VR 핸드 추가
 
 ---
 
@@ -40,7 +42,7 @@ footer: 2023-02-13
 
 # 프로그램 다운로드
 
-### 1.1 유니티 설치. (첫화면-유니티 허브)
+### 1.1 유니티 설치. _(첫화면-유니티 허브)_
 
 1.1.1 유니티 로그인. 페이스북 
 1.1.2) 유니티 학생 라이센스로 다운받기
@@ -53,7 +55,7 @@ footer: 2023-02-13
 
 ### 1.2 Oculus(Meta) Quest 2 설치.
 
-2.1.1) 'Oculus link' 다운로드 (오큘러스 앱 다운로드)
+2.1.1) 'Oculus link' 다운로드 _(오큘러스 앱 다운로드)_
 https://www.oculus.com/download_app/?id=1582076955407037
 
 
@@ -120,7 +122,7 @@ https://www.oculus.com/download_app/?id=1582076955407037
 
 ---
 
-- 헤드셋 쓰는 방법(헤일로 스트랩)
+- **헤드셋 쓰는 방법(헤일로 스트랩)**
 
    - 위로 들어서 쓰고 벗는 방식 <br>
 
@@ -128,7 +130,7 @@ https://www.oculus.com/download_app/?id=1582076955407037
 
 ---
 
--  헤드셋 충전/ PC연결 
+-  **헤드셋 충전/ PC연결** 
 
 ![w:700](./oculusquest2/charge_connect.jpg)
 
@@ -139,10 +141,10 @@ https://www.oculus.com/download_app/?id=1582076955407037
 
 ---
 
-![bg right height:500](./oculusquest2/left.png)
+![bg right height:500 bright:.5;](./oculusquest2/left.png)
 ![bg right height:500](./oculusquest2/right.png)
 
-- 컨트롤러: 
+- **컨트롤러** : 
 
 컨트롤러를 사용하여 가상의 물건들을 집거나 던질 수 있습니다.
 
@@ -153,14 +155,12 @@ https://www.oculus.com/download_app/?id=1582076955407037
 ---
 
 
- - 페어링 코드찾기: 
+ - **페어링 코드찾기**: 
 
 홈의 UI 패널 안에서 우측에 주사위 모양 아이콘 클릭
 settings 칸 클릭- 맨 밑 'About' 클릭- 맨 밑에 Pairing code 있음.
-영상 참고: https://www.youtube.com/watch?v=YxFbAVVaw78 
+_영상 참고_ : https://www.youtube.com/watch?v=YxFbAVVaw78 
 
 ---
 
-Index Scene으로 먼저 들어가야 
-다른 index들을(다른 Scene들) 볼 수 있다.
 

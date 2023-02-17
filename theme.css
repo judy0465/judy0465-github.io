@@ -1,0 +1,29 @@
+/* @theme your-theme */
+
+@import 'default';
+
+h1 {
+  color: red;
+}
+
+{
+    "markdown.marp.themes": [
+      "./theme.css"
+    ]
+  }
+  
+---
+
+marp: true
+theme: your-theme
+
+---
+
+# Hello, world!
+
+
+{
+    "markdown.marp.themes": [
+      "./theme.css"
+    ]
+  }

@@ -5,14 +5,10 @@ class: invert
 paginate: true
 header: Student Study Memo
 footer: 2023-02-16
+backgroundColor: 
 ---
+
 # VR project2 문서정리
-
-
-
-
-
-
 
 ---
 
@@ -26,15 +22,11 @@ footer: 2023-02-16
 
 https://uploadvr.com/tracking-lost-quest-2/
 
-
-
 ---
 
 전세계 AC 전압 및 주파수 목록
 한국 220V 60Hz
-
-
-
+ 
 https://uploadvr.com/tracking-lost-quest-2/
 
 ---
@@ -353,7 +345,7 @@ boundscollider에 Chesshore_Collidr(자식)를 드래그드롭.
 
 ---
 
-7-2). ![bg right w:400](./microsoftteams_project_2/convexhull_meshcollider_2.png) 
+7-2). ![bg w:400](./microsoftteams_project_2/convexhull_meshcollider_2.png) 
 
 ---
 
@@ -529,15 +521,80 @@ https://dashboard.unity3d.com/organizations/14568800501890/plastic-scm/about
 
 - Continue to purchase → Next Step
 
-![bg right w:600](./microsoftteams_project_2/continue_to_purchase.png)
+	![bg right w:600 ](./microsoftteams_project_2/continue_to_purchase.png)
+
+---
+
+- 원하는 조직(Organization) 선택 후 Proceed to payment 클릭.
+
+![bg right w:600 ](./microsoftteams_project_2/select_organization.png)
+
+---
+
+- 해당되는 카드 정보 입력 후 Place Order 클릭 후 결제 완료.
+
+![bg right w:600 ](./microsoftteams_project_2/place_order.png)
+
+---
+
+#### 4. Plastic SCM 활성화 
 
 
 
+- 조직이름, Datacenter은 Asia Northeast - Japan 입력 Create하여 Plastic Cloud 생성하기.
 
+![bg right w:600 ](./microsoftteams_project_2/datacenter.png)
 
+---
 
+![bg w:800 ](./microsoftteams_project_2/damso-book.png)
 
+---
 
+#### 5. 유니티 연결
+
+- window - Plastic SCM 하여 관리창 열기 또는 Plastic SCM아이콘 클릭
+![bg right w:600 ](./microsoftteams_project_2/plastic_scm_window.png)
+
+---
+
+- 이미 조직에 속해 있는 경우, 
+드롭다운해서 조직 선택 후 확인 클릭.
+
+- ※ 없을 경우, 새로운 레파지토리 / 워크스페이스 생성
+
+![bg right w:600 ](./microsoftteams_project_2/dropdown_group.png)
+
+---
+
+## 15. 크롬 캐스트 티비 미러링 방법
+
+#### 1. 크롬캐스트를 TV HTMI단자에 꼽고 전원을 연결한다. 
+
+![bg right w:600 ](./microsoftteams_project_2/mirroring.png)
+
+*크롬캐스트에 연결된 WIFI와 메타(오큘러스) 퀘스트2에 연결된 WIFI가 같아야 한다.*
+
+[출처] https://mytem.me/story/2341/
+
+---
+
+#### 2. 오큘러스 퀘스트 메뉴 내의 
+'공유' 클릭.
+
+![bg right w:600 ](./microsoftteams_project_2/share.png)
+
+---
+
+#### 3. 좌측 상단의 미러링 클릭.
+
+![bg right w:600 ](./microsoftteams_project_2/mirroring_2.png)
+
+---
+
+#### 4. 이 헤드셋에서 미러링에서 크롬캐스트를 선택하면 연결된다.
+
+![bg right w:600 ](./microsoftteams_project_2/cromecast_start.png)
 
 
 
