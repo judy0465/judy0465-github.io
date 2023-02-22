@@ -164,11 +164,15 @@ const로 선언한 상수는 자동으로 static 변수가 됩니다.
 3. connect() 연결요청
 4. close() 소켓을 닫고 통신 종료하는 함수.
 
-
-
 ---
 
+## 주소 체계와 데이터 정렬
 
+소켓에 할당되는 IP 주소와 POPT 번호
+
+IP: Internet protocol의 약자
+
+PORT: 
 
 
 
