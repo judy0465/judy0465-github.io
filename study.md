@@ -56,7 +56,7 @@ ex) 속성으로 'charset= utf-8'이라고 표현한 것은, 브라우저에게 
 
 ---
 
-HTML5 레이아웃
+### HTML5 레이아웃
 
 
 ![w:500 bg right](./study_sat_html/html5_layout.jpg)

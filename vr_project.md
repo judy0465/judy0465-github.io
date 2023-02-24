@@ -25,41 +25,41 @@ footer: 2023-02-10
 # ABCD Scenes
 ---
 
-File_name| Screenshoot | Explanation
+File_name| Screenshoot | Scene_name
 ---------|:-------------------------------:|:-----
-index | ![h:150](./project_vr/scene_index.jpg) | 시작하는 곳.
-AScene | ![h:150](./project_vr/scene_a.jpg) | 라인.
+index | ![h:150](./project_vr/scene_index.jpg) | ■ 비트월드.
+AScene | ![h:150](./project_vr/scene_a.jpg) | ■ 음극선관.
 A2Scene | ![h:150](./project_vr/scene_a2.jpg) | 인트로.
 
 ---
 
-File_name| Screenshoot | Explanation
+File_name| Screenshoot | Scene_name
 ---------|:-------------------------------:|:-----
-BScene| ![h:150](./project_vr/scene_b.jpg) | 픽셀.
-B2Scene| ![h:150](./project_vr/scene_b2.jpg) | 네트워크.
+BScene   |![h:150](./project_vr/scene_b.jpg) | ■ LED.
+B2Scene| ![h:150](./project_vr/scene_b2.jpg) | ■ 네트워크.
 CScene | ![h:150](./project_vr/scene_c.jpg) | 가상.
 
 ---
 
-File_name| Screenshoot | Explanation
+File_name| Screenshoot | Scene_name
 ---------|:-------------------------------:|:-----
 DScene | ![h:150](./project_vr/scene_d.jpg) | 프레임.
-D2Scene | ![h:150](./project_vr/scene_d2.jpg) | 가상과 현실.
+D2Scene | ![h:150](./project_vr/scene_d2.jpg) | ■ 가상 현실.
 FScene | ![h:150](./project_vr/scene_f.jpg) | 로우 폴리곤.
 
 ---
 
-File_name| Screenshoot | Explanation
+File_name| Screenshoot | Scene_name
 ---------|:-------------------------------:|:-----
-GScene | ![h:150](./project_vr/scene_g.jpg) | 우주선 조립.
-G2 | ![h:150](./project_vr/scene_g2.jpg) | 전자기판 조립.
+GScene | ![h:150](./project_vr/scene_g.jpg) | ■ 인터넷.
+G2 | ![h:150](./project_vr/scene_g2.png) | ■ 트랜지스터.
 grabscene | ![h:150](./project_vr/scene_grab.jpg) | 조립 테스트.
 
 ---
 
-File_name| Screenshoot | Explanation
+File_name| Screenshoot | Scene_name
 ---------|:-------------------------------:|:-----
-Practice_Light| ![h:150](./project_vr/scene_practice_light.jpg) | 발사 테스트.
+Practice_Light| ![h:150](./project_vr/scene_practice_light.jpg) | 발사 테스트.  
 spaecShip| ![h:150](./project_vr/scene_spaceship.jpg) | 우주선 에셋.
 X_Space_Test | ![h:150](./project_vr/scene_x_space_test.jpg) | 공간 테스트.
 
@@ -79,10 +79,111 @@ project window | assets > script > sceneChanger.cs
 
 
 ---
+<!--_color: pink-->
 
-### Errors
+#####  Quad 를 사용하여 이미지 첨부하는 방법!
+
+###### 1. 하이라키 창에서 우클릭- 3D Object - Quad 클릭
+
+![bg right w:500](./project_vr/i_1_hierarchy.jpg)
+구글 업로드 해서 사진 바꾸기!!
+
+---
+
+###### 2. Project 창에서 우클릭- Create - Material
+
+![bg right w:500](./project_vr/i_2_project.jpg)
+
+---
+
+###### 3. 내가 만든 Material을 클릭- Inspector 창에서 윗 부분에 shader 칸에서 '**Universal Render Pipeline**' 클릭 
+
+![bg right w:500](./project_vr/i_3_shade.jpg)
+
+---
+###### 4. Lit(기본설정) -> 'Unlit'으로 바꿔주기
+- ###### Lit- 조명의 영향 O
+- ###### Unlit- 조명의 영향X
+
+![bg right w:500](./project_vr/i_3_2_unlit.jpg)
+
+---
+
+###### 5. Inspector 창의 밑 부분에 Surface Inputs-     Base Map에 원하는 이미지 드래그 해서 가져오기.(끝)
+
+![bg right w:500](./project_vr/i_3_surfaceinputs.jpg)
+
+
+---
+<!--_color: pink-->
+#####  UI 사용하여 이미지 첨부하기
+
+1. 
+![bg right w:500](./project_vr/ui_image.jpg)
+![bg right w:500](./project_vr/ui_result.jpg)
+
+---
+2.
+
+![bg w:500](./project_vr/add_asset.jpg)
+
+
+---
+
+3.
+
+![bg  w:500](./project_vr/add_image.jpg)
+
+
+---
+
+4. 이미지 첨부 완료.
+
+![bg right w:500](./project_vr/change_sprite.jpg)
+
+
+---
+
+#####  Quad 를 사용하여 이미지 첨부하는 방법!
+
+###### 1. 하이라키 창에서 우클릭- 3D Object - Quad 클릭
+
+![bg right w:500](./project_vr/i_1_hierarchy.jpg)
+구글 업로드 해서 사진 바꾸기!!
+
+---
+
+###### 2. Project 창에서 우클릭- Create - Material
+
+![bg right w:500](./project_vr/i_2_project.jpg)
+
+---
+
+###### 3. 내가 만든 Material을 클릭- Inspector 창에서 윗 부분에 shader 칸에서 '**Universal Render Pipeline**' 클릭 
+
+![bg right w:500](./project_vr/i_3_shade.jpg)
+
+---
+###### 4. Lit(기본설정) -> 'Unlit'으로 바꿔주기
+- ###### Lit- 조명의 영향 O
+- ###### Unlit- 조명의 영향X
+
+![bg right w:500](./project_vr/i_3_2_unlit.jpg)
+
+---
+
+###### 5. Inspector 창의 밑 부분에 Surface Inputs-     Base Map에 원하는 이미지 드래그 해서 가져오기.(끝)
+
+![bg right w:500](./project_vr/i_3_surfaceinputs.jpg)
+
+
+---
+
+
+
+### Unity Errors 모음
 <!--_color: yellow-->
-###### Case 1)
+Case 1)
 
 ![h:100](./image/errors_1.jpg) 
 -해결방법: Project-Oculus-VR-Plugins 에서 1.74.0만 남겨두고 나머지 삭제.
@@ -95,90 +196,96 @@ project window | assets > script > sceneChanger.cs
 
 ---
 
-# 문서정리
+<!--_color: yellow-->
 
----
+case 2)
+- 프로젝트 동기화가 되지 않을 때
 
-#### 1. 시작하는 곳 (왜 비트월드를 만들게 되었는지)
+![width:500](./project_vr/e1.jpg)
 
-- 전시의도: 디지털 게임을 소재로 '비트'로 만들어진 가상세계를 구축하여 그곳과 소통하는 다양한 기술들, 가상세계 속 이야기들을 다루려고 한다.
-
----
-
-#### 2. 인트로
-
-
-
-
+######  1. 유니티 허브 상에서 맨 밑의 주소를 확인한 다음,저장되어 있는 주소로 찾아가서 프로젝트 폴더를 지운다.
 
 
 ---
+<!--_color: yellow-->
+###### 2. 유니티 허브에서 open 버튼을 눌러 Open remote project를 누른다.
 
-#### 3. 라인
-
-
-
+![width:500](./project_vr/e1.jpg)
 
 
 
 ---
+<!--_color: yellow-->
+![width:500](./project_vr/e2.jpg)
 
-
-#### 4. 전자기판 조립
+###### 3. 해당 폴더를 클릭하고 Next 버튼을 누른다.
 
 
 
 
 
 ---
+<!--_color: yellow-->
+![width:500](./project_vr/e3.jpg)
+
+###### 4. Open with '해당 버전' 버튼을 누른다.
 
 
-#### 5. 픽셀
+---
+# 폰트 목록
+
+- 사이트: 눈누 https://noonnu.cc/
 
 
+1. 나눔 바른 고딕
+https://noonnu.cc/font_page/36
 
+![h:70](./project_vr/f1.jpg)
 
+2. 나눔고딕코딩
+https://noonnu.cc/font_page/40
+
+![h:70](./project_vr/f2.jpg)
 
 
 ---
 
-#### 6. 우주선 조립
+3. 한림고딕체 
+https://noonnu.cc/font_page/877
+
+![h:70](./project_vr/f3_hanrim.jpg)
 
 
+4. KoddiUD 온고딕
+https://noonnu.cc/font_page/674
 
+![h:70](./project_vr/f4_kodd.jpg)
+---
 
+5. 예스 고딕
+https://noonnu.cc/font_page/404
 
+https://www.relation.co.kr/html_board/board_view.php?par_no=13&code=&title_code=&page=1&no=144
 
 
 ---
 
-#### 7. 네트워크
+- 사이트: Relation 
+https://www.relation.co.kr/html_board/board_view.php?par_no=13&code=&title_code=&page=1&no=144
 
+1. ELAND Choice
 
+![w:400](./project_vr/f6_eland.jpg)
 
-
-
-
-
-
----
-
-
-
-#### 8. 가상과 현실
-
-
-
-
-
+###### https://www.relation.co.kr/html_board/board_view.php?par_no=13&code=&title_code=&page=1&no=144
 
 ---
 
-#### 9. 시작하는 곳
+2. KOHI 나눔체
 
-
-
-
-
+![w:400](./project_vr/f7_kohi.jpg)
+###### https://www.relation.co.kr/html_board/board_view.php?par_no=13&code=&title_code=&page=1&no=152
 
 ---
+
+3. KOHI 나눔체
